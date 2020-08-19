@@ -1,0 +1,260 @@
+.transparent-navbar{
+    background-color: none !important;
+}
+
+.text-black{
+    color: black !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
+.big-picture{
+    position: relative;
+    /* background-image: linear-gradient(
+		to right, 
+		rgba(0, 0, 0, 0.2), 
+        rgba(0,0,0,0.2)) , 
+        url('../images/benjamin-voros-260869-unsplash.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover;
+    height: 85vh;  */
+    width: 100%;
+}
+
+.slides--inner-text{
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+
+
+.shop-now--button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 179, 0);
+    color: #fff;
+    float: left;
+}
+
+.shop-now--text{
+    overflow: hidden;
+    position: relative;
+    top: 0.5rem;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.bottom-highlights{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5rem;
+    /* background-color: red; */
+    
+}
+
+.bottom-highlights--inner---first-column{
+    max-width: 6rem;
+}
+
+.bottom-highlights--inner{
+    height: inherit;
+    background-color: #ffffff;
+    width: 80%;
+    border-top-right-radius: 50px;
+    float: left;
+}
+
+.bottom-highlights--inner---icon{
+    background-color:  rgba(251, 163, 0, 0.157);
+    height: 35px;
+    width: 35px;
+    padding-top:3px !important;
+    padding-left: 8.75px;
+    padding-right: 8.75px;
+    padding-bottom: 8.75px;
+    border-radius: 10px;
+    color: rgb(251, 163, 0);
+    float: left;
+}
+
+.bottom-highlights--inner---text{
+    margin-left: 45px;
+}
+
+.bottom-highlights--inner---text p {
+    font-size: 13px;
+    color: rgb(109, 109, 109);
+}
+
+/* .bottom-highlights--inner-two{
+    
+} */
+
+.bottom-highlights--inner-arrow-left{
+    background-color: #ffffff;
+    border: none;
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    opacity: 0.4;
+}
+
+.bottom-highlights--inner-arrow-right{
+    background-color: #ffffff;
+    border: none;
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+.new-arrival-container{
+    width: inherit;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    box-shadow: 5px 20px 20px #dadada70;
+    border-radius: 10px;
+    position: relative;
+}
+
+.new-arrival-container img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    /* height: auto; */
+}
+
+.new-arrival-overlay{
+    position: absolute;
+    top:0;
+    background-color: #00000044;
+    height: inherit;
+    width: inherit; 
+    color:#fff;
+}
+
+.overlay-content{
+    margin-left: 10%;
+    position: absolute;
+    bottom: 40px;
+}
+
+.overlay-content h5{
+    font-weight: 400;
+    /* font-size: 18px; */
+}
+
+.overlay-content button{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 13px;
+}
+
+.for-you{
+    overflow: hidden;
+    clear: both;
+}
+
+.for-you h5{
+    float: left;
+}
+
+.for-you button{
+    float: right;
+    background-color: #ffffff;
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    font-size: 13px;
+}
+
+.for-you--images{
+    overflow: hidden;
+    clear: both;
+}
+
+
+.for-you--image-container img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    border: 1px solid rgb(216, 214, 214);
+}
+
+
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.home-carousel-indicators{
+    position: unset;
+    margin: 0;
+    float: left;
+    /* left:0; */
+    right: unset !important;
+    bottom: unset !important;
+    /* height: 100%; */
+    /* width: 85vh; */
+    /* bottom:0; */
+    /* margin:auto; */
+    /* height:20px; */
+    /* right:auto; left:0; */
+    /* width:auto; */
+    margin-right:-10em;/* remove this if you do not want see span overflow; */
+    -webkit-transform: rotate(90deg) translatey(-10px);
+    -moz-transform: rotate(90deg) translatey(-10px) ;
+    -ms-transform: rotate(90deg) translatey(-10px) ;
+    -o-transform: rotate(90deg) translatey(-10px) ;
+    transform: rotate(90deg) translatey(-10px);
+    transform-origin: center left;
+}
+
+.home-carousel-item img{
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.home-carousel-indicators li{
+    /* display:block; margin-bottom:0;  */
+    margin: 0;
+    border:1px solid #ffffff; 
+    width: 15vh;
+    border-radius: 0px;
+}
+
+
+.home-carousel-indicators li.active{
+    margin-bottom:5px; background:#ffffff;
+    
+}
+
+.home-carousel-item, .home-carousel-inner, .home-carousel, .fill {
+    min-height: 0 !important;
+    /* background-color: red; */
+    /* position: relative; */
+}
+
+.slide{
+    position: relative;
+}

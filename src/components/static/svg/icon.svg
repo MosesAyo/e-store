@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.099" height="31.675" viewBox="0 0 37.099 31.675">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #ffffff;
+      }
+
+      .cls-3 {
+        font-size: 3.8px;
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        font-size: 4px;
+        fill: #ffffff;
+        <!-- stroke: #ffffff; -->
+      }
+
+      .cls-5 {
+        font-size: 2.8px;
+        font-family: SegoeUIBlack, Segoe UI;
+        font-weight: 400;
+        fill: #ffffff;
+      }
+      .cls-6{
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <g id="Group_4258" data-name="Group 4258" transform="translate(-816.901 -287.325)">
+    <path id="Path_2127" data-name="Path 2127" class="cls-1" d="M-758.509,1305.8c-3.513-4.343-11.655-6.929-17.616-.976s-3.416,14.4,1.122,17.762a11.515,11.515,0,0,0,14.346,0,12.072,12.072,0,0,0,4.648-9.365" transform="translate(1597.531 -1013.003)"/>
+    <path id="Path_2128" data-name="Path 2128" class="cls-1" d="M-730,1328.184l10.043-7.908" transform="translate(1558.876 -1027.376)"/>
+    <path id="Path_2129" data-name="Path 2129" class="cls-1" d="M-593.089,1320.214h-10.635" transform="translate(1445.223 -1020)"/>
+    <circle id="Ellipse_291" data-name="Ellipse 291" class="cls-2" cx="2.5" cy="2.5" r="2.5" transform="translate(820 314)"/>
+    <circle id="Ellipse_292" data-name="Ellipse 292" class="cls-2" cx="2.5" cy="2.5" r="2.5" transform="translate(835 314)"/>
+    <text id="e-STORE" class="cls-3" transform="translate(841 298)"><tspan x="0" y="0" class="cls-6">e</tspan><tspan class="cls-4" y="0">-</tspan><tspan class="cls-5" y="0">STORE</tspan></text>
+  </g>
+</svg>
