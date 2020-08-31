@@ -17,7 +17,7 @@ import _greyTop from './static/images/grey-sweater.jpeg';
 import _denim from './static/images/denim.jpg';
 import _blueSuit from './static/images/cute-toddler-in-rainbow-bowtie.jpg';
 import _tealPhoto from './static/images/woman-wearing-teal.jpg'
-import _sneakers from './static/images/pair-of-all-black-sneakers.jpg';
+// import _sneakers from './static/images/pair-of-all-black-sneakers.jpg';
 
 function Home() {
     return (
@@ -178,21 +178,37 @@ function Home() {
                         <div className="row">
                             <div className="col-3 for-you--image-container">
                                 <img srcSet={_greySweater} alt="New Arrival" />
+                                <div className="mt-3">
+                                    <h6>Grey Sweater</h6>
+                                    <p><span>&#8358;</span> 3,499 <span className="old-price "><del><span>&#8358;</span> 4,500</del></span></p>
+                                </div>
                             </div>
                             <div className="col-3 for-you--image-container">
                                 <img srcSet={_blackShirt} alt="New Arrival" />
+                                <div className="mt-3">
+                                    <h6>Black T-Shirt</h6>
+                                    <p><span>&#8358;</span> 2,499 <span className="old-price "><del><span>&#8358;</span> 4,000</del></span></p>
+                                </div>
                             </div>
                             <div className="col-3 for-you--image-container">
                                 <img srcSet={_greyTop} alt="New Arrival" />
+                                <div className="mt-3">
+                                    <h6>Grey Sweater</h6>
+                                    <p><span>&#8358;</span> 3,499 <span className="old-price "><del><span>&#8358;</span> 4,500</del></span></p>
+                                </div>
                             </div>
                             <div className="col-3 for-you--image-container">
                                 <img srcSet={_denim} alt="New Arrival" />
+                                <div className="mt-3">
+                                    <h6>Blue Jacket</h6>
+                                    <p><span>&#8358;</span> 4,999 <span className="old-price "><del><span>&#8358;</span> 4,500</del></span></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
+            {/* <Footer/> */}
         </div>
     )
 }
