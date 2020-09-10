@@ -2,6 +2,9 @@
     background-color: none !important;
 }
 
+.border-grey{
+    border: 1px solid rgb(200, 200, 200) !important;
+}
 .text-black{
     color: black !important;
 }
@@ -9,7 +12,9 @@
 .center-div{
     margin: 0 auto;
 }
-
+.border-none{
+    border: none;
+}
 .inline-block{
     display: inline-block;
 }
@@ -28,6 +33,10 @@
 
 .text-grey{
     color: rgb(128, 128, 128);
+}
+
+.text-grey-light{
+    color: rgb(195, 195, 195);
 }
 
 .bg-yellow{
@@ -520,6 +529,126 @@
 .review-comment{
     max-width: 300px;
 }
+
+
+/* ----------------- Cart -----------------
+---------------------------------------- */
+.first-cart-container h1{
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: 0.6rem;
+}
+.first-cart-container div{
+    float: right;
+}
+
+.line-seperator{
+    display: inline-block;
+    width: 5rem;
+    position: relative;
+    top: 0.6rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cart-item img{
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(200, 200, 200);;
+    border-radius: 50px;
+    padding: 5px
+}
+
+.cart-item div{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.cart-item div>p{
+    margin:0;
+    color: grey;
+}
+
+.cart-table{
+    width: 100%;
+}
+.cart-headings{
+    /* border-spacing: 100px; */
+    /* background-color: red; */
+    height: 50px
+}
+
+.cart-progress-icon{
+    background-color: rgb(255, 179, 0);
+    width: 40px;
+    height: 40px;
+    /* padding: 7px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    border-radius: 20px; 
+    color: white;
+    border: none;
+}
+
+.cart-progress-icon-outline{
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 179, 0);
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid rgb(255, 179, 0);
+}
+
+.add-reduce{
+    border: 1px solid grey;
+    max-width: fit-content;
+    border-radius: 50px;
+}
+.add-reduce span{
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+.add-reduce button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.promo-code-input{
+    padding-left: 20px;
+    /* padding-top: 10px; */
+    height: 40px;
+    /* padding-bottom:10px; */
+    padding-right:10px;
+    border-radius: 200px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.cart-total-cost{
+    color: grey;
+    text-align: center;
+}
+
+.cart-total-cost span{
+    margin-left: 20px;
+    color: black;
+}
+
+.cart-action-button{
+    max-width: fit-content;
+}
+
+.cart-action-button button{
+    padding: 10px;
+    border-radius: 10rem;
+    margin-left: 10px;
+    border: none;
+    font-size: 13px;
+}
+
 
 /* ---------------- Footer ------------------- */
 /* ------------------------------------------- */

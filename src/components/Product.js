@@ -140,8 +140,8 @@ function Product() {
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        {/* <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> */}
-                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        {/* <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> */}
                             <div className="row">
                                 <div className="col-6">
                                     <div className="file-icon mt-4 ">
@@ -180,7 +180,7 @@ function Product() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                             <div className="row">
                                 <div className="col-6  mt-5">
                                     <div className="row">

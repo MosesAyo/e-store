@@ -14,3 +14,17 @@
 [0826/150212.554:ERROR:exception_snapshot_win.cc(98)] thread ID 1388 not found in process
 [0826/150212.570:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0826/150212.570:ERROR:exception_snapshot_win.cc(98)] thread ID 2684 not found in process
+[0907/073300.110:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073259.938:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073300.078:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073259.938:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073300.110:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073300.094:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073300.110:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 9656 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 9676 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 9704 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 2604 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 9860 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 4488 not found in process
+[0907/073300.250:ERROR:exception_snapshot_win.cc(99)] thread ID 11884 not found in process
